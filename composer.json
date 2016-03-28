@@ -1,0 +1,29 @@
+{
+    "name": "d2emon/book-collection",
+    "description": "My books collection for octolana",
+    "type": "yii2-extension",
+    "keywords": ["octolana"],
+    "license": "GPL-3.0+",
+    "authors": [
+        {
+            "name": "Dmitry Kutsenko",
+            "email": "d2emonium@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "repositories":[
+        {
+            "type": "git",
+	          "url":  "git@github.com:d2emon/trcards.git"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*",
+        "d2emon/trcards": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "d2emon\\books\\": ""
+        }
+    }
+}
